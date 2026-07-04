@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 
-with open('churn_model.pkl', 'rb') as file:
+with open('Churn_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
